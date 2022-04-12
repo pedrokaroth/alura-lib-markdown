@@ -1,7 +1,6 @@
 import fileCatcher from './src/files-manager.js';
 import validateUrls from './src/http-validate.js';
 
-import chalk from 'chalk';
 const path = process.argv;
 
 async function processText(path) {
